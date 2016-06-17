@@ -17,6 +17,7 @@ class TestCases(unittest.TestCase):
     def testGoogleSearch(self):
         print('************Testing Google News************')
         common.google_search('abc stock price')
+        assert(common.element('News').exists())
 
     def testGoogleNews(self):
         print('************Testing Google News************')

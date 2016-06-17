@@ -1,11 +1,13 @@
 from selenium import webdriver
 from src.WebTestSample.WebTestResources import ObjectRepository
+from src.WebTestSample.WebTestResources import config
 
 
 class CommonFlows:
     def __init__(self):
         print('Initialize common functions')
         self.driver = None
+        self.url = config.get_url('prod')
 
     def get_or_create_web_driver(self):
         print('Called get_or_create_web_driver')
@@ -37,7 +39,7 @@ class CommonFlows:
 
     def google_search(self, search_term):
         print('Google ' + search_term)
-        self.driver.get('https://www.google.com')
+        self.driver.get(self.url)
         if 'Google' not in self.driver.title:
             print('Did not make it to Google')
         self.element('google_search_box').send_keys(search_term)
