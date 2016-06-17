@@ -38,6 +38,7 @@ class TestCases(unittest.TestCase):
         print('************Testing Google Shopping************')
         common.google_search('High elevation hiking gear')
         common.element('Shopping').click()
+        common.element('New items').click()
 
     def testGoogleBooks(self):
         print('************Testing Google Books************')

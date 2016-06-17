@@ -17,7 +17,7 @@ class CommonFlows:
         self.driver.implicitly_wait(1)
         return self.driver
 
-    def get_xpath(self,array):
+    def get_xpath(self, array):
         tag_type = array[0]
         tag_attribute = array[1]
         attribute_value = array[2]

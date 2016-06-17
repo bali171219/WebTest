@@ -12,4 +12,5 @@ WebElements = {
     'Books': ['a', 'text()', 'Books'],
     'Flights': ['a', 'text()', 'Flights'],
     'Apps': ['a', 'text()', 'Apps'],
+    'New items': ['span', 'text()', 'New items'],
 }
