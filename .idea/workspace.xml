@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d9160e5-1ce2-4f80-bc97-417dd00f04d0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TDD_Sample/superlists/lists/templates/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TDD_Sample/superlists/functional_tests.py" afterPath="$PROJECT_DIR$/src/TDD_Sample/superlists/functional_tests.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TDD_Sample/superlists/lists/templates/home.html" afterPath="$PROJECT_DIR$/src/TDD_Sample/superlists/lists/templates/home.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TDD_Sample/superlists/lists/tests.py" afterPath="$PROJECT_DIR$/src/TDD_Sample/superlists/lists/tests.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TDD_Sample/superlists/lists/views.py" afterPath="$PROJECT_DIR$/src/TDD_Sample/superlists/lists/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TDD_Sample/superlists/superlists/settings.py" afterPath="$PROJECT_DIR$/src/TDD_Sample/superlists/superlists/settings.py" />
     </list>
     <ignored path="WebTest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,8 +28,8 @@
       <file leaf-file-name="functional_tests.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TDD_Sample/superlists/functional_tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="62" column="36" selection-start-line="62" selection-start-column="36" selection-end-line="62" selection-end-column="36" />
+            <state relative-caret-position="224">
+              <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -42,8 +40,8 @@
       <file leaf-file-name="tests.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TDD_Sample/superlists/lists/tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="225">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -66,8 +64,8 @@
       <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TDD_Sample/superlists/lists/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <state relative-caret-position="210">
+              <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -99,10 +97,10 @@
         <option value="$PROJECT_DIR$/src/WebTestSample/TestCases.py" />
         <option value="$PROJECT_DIR$/src/TDD_Sample/TestCases.py" />
         <option value="$PROJECT_DIR$/src/TDD_Sample/superlists/superlists/urls.py" />
-        <option value="$PROJECT_DIR$/src/TDD_Sample/superlists/functional_tests.py" />
-        <option value="$PROJECT_DIR$/src/TDD_Sample/superlists/lists/templates/home.html" />
         <option value="$PROJECT_DIR$/src/TDD_Sample/superlists/lists/views.py" />
         <option value="$PROJECT_DIR$/src/TDD_Sample/superlists/superlists/settings.py" />
+        <option value="$PROJECT_DIR$/src/TDD_Sample/superlists/functional_tests.py" />
+        <option value="$PROJECT_DIR$/src/TDD_Sample/superlists/lists/templates/home.html" />
         <option value="$PROJECT_DIR$/src/TDD_Sample/superlists/lists/tests.py" />
       </list>
     </option>
@@ -300,29 +298,7 @@
       <recent name="$PROJECT_DIR$/src/SandboxCode/SandboxModule" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in tests">
-    <configuration default="false" name="Unittest TestCases.testGoogleShopping" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/WebTestSample" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="WebTest" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/WebTestSample/TestCases.py" />
-      <option name="CLASS_NAME" value="TestCases" />
-      <option name="METHOD_NAME" value="testGoogleShopping" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_METHOD" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittests in functional_tests">
     <configuration default="false" name="TestCases" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -390,6 +366,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="WebTest" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/TDD_Sample/superlists/lists/tests.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in functional_tests" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/TDD_Sample/superlists" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="WebTest" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/TDD_Sample/superlists/functional_tests.py" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
@@ -536,19 +534,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest TestCases.testGoogleShopping" />
-      <item index="1" class="java.lang.String" itemvalue="Python.TestCases" />
-      <item index="2" class="java.lang.String" itemvalue="Python.functional_tests" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest SmokeTest.test_maths" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in tests" />
+      <item index="0" class="java.lang.String" itemvalue="Python.TestCases" />
+      <item index="1" class="java.lang.String" itemvalue="Python.functional_tests" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest SmokeTest.test_maths" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in tests" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in functional_tests" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in tests" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest SmokeTest.test_maths" />
-        <item index="2" class="java.lang.String" itemvalue="Python.functional_tests" />
-        <item index="3" class="java.lang.String" itemvalue="Python.TestCases" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest TestCases.testGoogleShopping" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in functional_tests" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in tests" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest SmokeTest.test_maths" />
+        <item index="3" class="java.lang.String" itemvalue="Python.functional_tests" />
+        <item index="4" class="java.lang.String" itemvalue="Python.TestCases" />
       </list>
     </recent_temporary>
   </component>
@@ -580,31 +578,31 @@
     <history-entry file="Unittest_SmokeTest_test_maths - 2016.06.22 at 13h 53m 58s.xml">
       <configuration name="Unittest SmokeTest.test_maths" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_TestCases_testGoogleMaps - 2016.06.16 at 21h 55m 19s.xml">
-      <configuration name="Unittest TestCases.testGoogleMaps" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittest_TestCases_testGoogleSearch - 2016.06.16 at 21h 53m 17s.xml">
-      <configuration name="Unittest TestCases.testGoogleSearch" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittest_TestCases_testGoogleSearch - 2016.06.16 at 21h 58m 06s.xml">
-      <configuration name="Unittest TestCases.testGoogleSearch" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittest_TestCases_testGoogleShopping - 2016.06.17 at 14h 34m 52s.xml">
-      <configuration name="Unittest TestCases.testGoogleShopping" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_TestCases - 2016.06.16 at 18h 41m 41s.xml">
-      <configuration name="Unittests in TestCases" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_TestCases - 2016.06.16 at 21h 44m 27s.xml">
-      <configuration name="Unittests in TestCases" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_TestCases - 2016.06.16 at 21h 57m 08s.xml">
       <configuration name="Unittests in TestCases" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_TestCases_(1) - 2016.06.16 at 21h 53m 11s.xml">
       <configuration name="Unittests in TestCases (1)" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_functional_tests - 2016.06.22 at 15h 22m 28s.xml">
+      <configuration name="Unittests in functional_tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_functional_tests - 2016.06.22 at 15h 23m 32s.xml">
+      <configuration name="Unittests in functional_tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_functional_tests - 2016.06.22 at 15h 24m 23s.xml">
+      <configuration name="Unittests in functional_tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_functional_tests - 2016.06.22 at 15h 25m 13s.xml">
+      <configuration name="Unittests in functional_tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_functional_tests - 2016.06.22 at 15h 26m 19s.xml">
+      <configuration name="Unittests in functional_tests" configurationId="tests" />
+    </history-entry>
     <history-entry file="Unittests_in_tests - 2016.06.22 at 13h 54m 55s.xml">
+      <configuration name="Unittests in tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_tests - 2016.06.22 at 15h 22m 09s.xml">
       <configuration name="Unittests in tests" configurationId="tests" />
     </history-entry>
   </component>
@@ -804,17 +802,7 @@
         <state relative-caret-position="60">
           <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
           <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TDD_Sample/superlists/functional_tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="62" column="36" selection-start-line="62" selection-start-column="36" selection-end-line="62" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#0#51#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -823,14 +811,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TDD_Sample/superlists/lists/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -845,10 +825,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/TDD_Sample/superlists/functional_tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TDD_Sample/superlists/lists/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/TDD_Sample/superlists/lists/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="225">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>

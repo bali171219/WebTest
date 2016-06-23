@@ -34,9 +34,8 @@ class NewVisitorTest(unittest.TestCase):
 
         table = self.browser.find_element_by_id('id_list_table')
         rows = table.find_elements_by_tag_name('tr')
-
         self.assertIn(
-            "1: Buy peacock feathers",
+            "1: Buy fruit",
             [row.text for row in rows]
         )
 
@@ -51,7 +50,7 @@ class NewVisitorTest(unittest.TestCase):
         rows = table.find_elements_by_tag_name('tr')
 
         self.assertIn(
-            "1: Buy peacock feathers",
+            "1: Buy fruit",
             [row.text for row in rows]
         )
         self.assertIn(
