@@ -7,6 +7,7 @@ class NewVisitorTest(unittest.TestCase):
 
     def setUp(self):
         self.browser = webdriver.Firefox()
+        self.browser.implicitly_wait(3)
 
     def tearDown(self):
         self.browser.quit()
@@ -50,13 +51,15 @@ class NewVisitorTest(unittest.TestCase):
         rows = table.find_elements_by_tag_name('tr')
 
         self.assertIn(
-            "1: Buy fruit",
-            [row.text for row in rows]
-        )
-        self.assertIn(
             "2: Make Fruit salad",
             [row.text for row in rows]
         )
+
+        self.assertIn(
+            "1: Buy fruit",
+            [row.text for row in rows]
+        )
+
         # Bali wonders whether the site will remember her list.
         # Then she sees that the site has generated a unique URL for her
         self.fail('Finish the test')
