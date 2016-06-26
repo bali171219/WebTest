@@ -77,7 +77,7 @@ class NewVisitorTest(LiveServerTestCase):
         # Ethel gets a unique url for her list
         ethel_list_url = self.browser.current_url
         self.assertRegex(ethel_list_url, '/lists/.+')
-        self.assertNotEqual(ethel_list_url, bali_lists_url)
+        self.assertNotEqual(ethel_list_url, bali_list_url)
 
         # There are still no items from Bali's list
         page_text = self.browser.find_element_by_tag_name('body').text
