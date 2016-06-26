@@ -1,12 +1,12 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import unittest
+from django.test import LiveServerTestCase
 
-
-class NewVisitorTest(unittest.TestCase):
+class NewVisitorTest(LiveServerTestCase):
 
     def setUp(self):
-        self.browser = webdriver.Firefox()
+        self.browser = webdriver.Chrome('/Users/blennox/Downloads/chromedriver')
         self.browser.implicitly_wait(3)
 
     def tearDown(self):
@@ -23,7 +23,7 @@ class NewVisitorTest(unittest.TestCase):
     def test_starting_a_new_todo_list(self):
         # Bali has heard about a cool new to do lists app.
         # She goes to the home page
-        self.browser.get('http://localhost:8000')
+        self.browser.get(self.live_server_url)
 
         # Bali notices the page title and header mention to-do lists
         self.assertIn('To-Do', self.browser.title)
