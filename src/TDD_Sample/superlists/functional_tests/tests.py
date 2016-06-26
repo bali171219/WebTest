@@ -6,7 +6,7 @@ from django.test import LiveServerTestCase
 class NewVisitorTest(LiveServerTestCase):
 
     def setUp(self):
-        self.browser = webdriver.Chrome('/Users/blennox/Downloads/chromedriver')
+        self.browser = webdriver.Chrome('/Users/blennox/PyCharmProjects/chromedriver')
         self.browser.implicitly_wait(3)
 
     def tearDown(self):
@@ -52,13 +52,43 @@ class NewVisitorTest(LiveServerTestCase):
         self.check_for_row_in_table("2: Make fruit salad")
         self.check_for_row_in_table("1: Buy fruit")
 
+        # Bali sees that she has a unique url
+        bali_list_url = self.browser.current_url
+        self.assertRegex(bali_list_url, '/lists/.+')
+
+        # Bali closes the browser
+        self.browser.quit
+
+        # Now Ethel (an new user), comes along and opens a fresh browser
+        # # this is to simulate a new user, ensuring all sessions cookies are removed
+        self.browser = webdriver.Chrome('/Users/blennox/PyCharmProjects/chromedriver')
+
+        # Ethel visits the site and see none of the items created by Bali
+        self.browser.get(self.live_server_url)
+        page_text = self.browser.find_element_by_tag_name('body').text
+        self.assertNotIn('Buy fruit', page_text)
+        self.assertNotIn('Make fruit salad', page_text)
+
+        # Ethel starts a new list by entering a new item
+        inputbox = self.browser.find_element_by_id('id_new_item')
+        inputbox.send_keys('Buy all purpose flower')
+        inputbox.send_keys(Keys.ENTER)
+
+        # Ethel gets a unique url for her list
+        ethel_list_url = self.browser.current_url
+        self.assertRegex(ethel_list_url, '/lists/.+')
+        self.assertNotEqual(ethel_list_url, bali_lists_url)
+
+        # There are still no items from Bali's list
+        page_text = self.browser.find_element_by_tag_name('body').text
+        self.assertNotIn('Buy fruit', page_text)
+        self.assertNotIn('Make fruit salad', page_text)
+
         # Bali wonders whether the site will remember her list.
         # Then she sees that the site has generated a unique URL for her
-        self.fail('Finish the test')
+        self.fail('Current tests pass - Add more tests')
 
         # She visits that URL - her to-do list is still there
-
-        # Satisfied Bali closes the browser
 
 if __name__ == '__main__':
     unittest.main()
