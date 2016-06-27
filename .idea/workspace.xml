@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d9160e5-1ce2-4f80-bc97-417dd00f04d0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TDD_Sample/superlists/functional_tests/tests.py" afterPath="$PROJECT_DIR$/src/TDD_Sample/superlists/functional_tests/tests.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TDD_Sample/superlists/lists/templates/list.html" afterPath="$PROJECT_DIR$/src/TDD_Sample/superlists/lists/templates/list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TDD_Sample/superlists/lists/tests.py" afterPath="$PROJECT_DIR$/src/TDD_Sample/superlists/lists/tests.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TDD_Sample/superlists/lists/views.py" afterPath="$PROJECT_DIR$/src/TDD_Sample/superlists/lists/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TDD_Sample/superlists/lists/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TDD_Sample/superlists/superlists/urls.py" afterPath="$PROJECT_DIR$/src/TDD_Sample/superlists/superlists/urls.py" />
     </list>
     <ignored path="WebTest.iws" />
@@ -39,7 +37,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tests.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tests.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TDD_Sample/superlists/lists/tests.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="275">
@@ -61,11 +59,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TDD_Sample/superlists/superlists/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="90">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TDD_Sample/superlists/lists/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -131,12 +139,13 @@
         <option value="$PROJECT_DIR$/src/TDD_Sample/superlists/superlists/settings.py" />
         <option value="$PROJECT_DIR$/src/TDD_Sample/superlists/functional_tests.py" />
         <option value="$PROJECT_DIR$/src/TDD_Sample/superlists/lists/templates/home.html" />
-        <option value="$PROJECT_DIR$/src/TDD_Sample/superlists/superlists/urls.py" />
         <option value="$PROJECT_DIR$/src/TDD_Sample/superlists/lists/models.py" />
         <option value="$PROJECT_DIR$/src/TDD_Sample/superlists/lists/templates/list.html" />
         <option value="$PROJECT_DIR$/src/TDD_Sample/superlists/functional_tests/tests.py" />
         <option value="$PROJECT_DIR$/src/TDD_Sample/superlists/lists/views.py" />
         <option value="$PROJECT_DIR$/src/TDD_Sample/superlists/lists/tests.py" />
+        <option value="$PROJECT_DIR$/src/TDD_Sample/superlists/lists/urls.py" />
+        <option value="$PROJECT_DIR$/src/TDD_Sample/superlists/superlists/urls.py" />
       </list>
     </option>
   </component>
@@ -280,9 +289,11 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="SearchEverywhereHistoryKey" value="first()&#9;null&#9;null&#10;testGoogle&#9;null&#9;null" />
     <property name="FullScreen" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/TDD_Sample/superlists/lists" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/TDD_Sample/superlists/lists" />
       <recent name="$PROJECT_DIR$/src/TDD_Sample/superlists/lists/templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -645,14 +656,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/TDD_Sample/superlists/lists/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TDD_Sample/superlists/lists/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -980,14 +983,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TDD_Sample/superlists/superlists/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TDD_Sample/superlists/lists/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -1005,6 +1000,22 @@
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TDD_Sample/superlists/lists/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TDD_Sample/superlists/superlists/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
